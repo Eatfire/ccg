@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+
+body {
+  font: 15px/1.5 'Roboto Condensed', Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+  background-image: url(../images/ccgbg.jpg);
+  background-repeat: repeat;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+.span{
+    color: #047400;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.span2{
+    font-weight: bolder;    
+}
+.paragraph{
+    margin: 30px;
+    font-size: 16px;
+}
+#team{
+    text-align: center;
+}
+#contact {
+    text-align: center;    
+    padding: 0 20px 0 20px;
+}
+#googleMap {
+    width: 100%;
+    height:550px;
+    
+}
+.stickynav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+ul.topnav li {
+    float: right;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.current) {background-color: #111;}
+
+ul.topnav li a.current {background-color:#047400;}
+
+ul.topnav li.left {
+    float: left;
+    height: auto;
+    max-width: 100%;
+    padding: 6px 0 0 20px;
+    border:none;
+}
+
+.boxes{
+    text-align: center;
+}
+
+.bio{
+    justify-content: center;
+    margin: 100px;
+
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 700px){
+
+    .ftag{
+        max-height:40px;
+        display:block;
+        
+    }
+    .paragraph{
+        margin: 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    
+
+    #contact{
+        float: none;
+        text-align: center;
+        padding: 0 ;
+    }
+
+    #googleMap {
+        width: 100%;
+        height:400px;
+        padding: 0;
+    }
+        
+    
+    ul.topnav li {
+        float: none;
+        width: 100%;
+    }
+    ul.topnav li.left {display:none;}
+    .stickynav{
+        position: relative;
+    }
+}
+.ftag{
+    height:60px;
+    display: inline;
+    padding-top: 50px;
+}
+.flogo{
+    text-align: center;
+}
+#copy{
+    text-align: center;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
